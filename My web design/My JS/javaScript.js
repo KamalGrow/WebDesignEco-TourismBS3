@@ -61,7 +61,6 @@ myLink.forEach((myLink) => {
 // ketika di close atau di open backdrop nya hilang
 
 // My Main GSAP
-// use a script tag or an external JS file
 document.addEventListener("DOMContentLoaded", (event) => {
   gsap.registerPlugin(ScrollTrigger, ScrollToPlugin, TextPlugin, EaselPlugin);
   // gsap code here!

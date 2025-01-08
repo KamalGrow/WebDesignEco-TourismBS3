@@ -60,12 +60,6 @@ section {
   margin-bottom: -1px;
 }
 
-.navbar:hover {
-  background: rgba(0, 0, 0, 0.5) !important;
-  color: white !important;
-  transition: 0.3s ease;
-}
-
 .about h3 {
   font-size: 1.5rem;
 }
@@ -107,13 +101,13 @@ section {
 }
 
 .btn {
-  color: var(--teks);
-  background-color: transparent;
+  color: var(--bg);
+  background-color: var(--green);
 }
 
 .btn:hover {
-  background-color: var(--teks);
-  color: var(--bg);
+  background-color: var(--bg);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .nav-link {
