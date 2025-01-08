@@ -15,5 +15,5 @@ Website ini dapat diakses melalui URL berikut:
 
 ---
 
-Terima kasih telah mengunjungi proyek ini!
+Terima kasih sudah mengunjungi MyWebDesign 😁
 
