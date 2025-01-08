@@ -192,12 +192,12 @@ section {
   position: relative;
   margin-top: 1rem;
   margin-bottom: 0;
-  left: -12.5rem;
-  font-size: 0.8rem;
+  left: -13rem;
+  font-size: 1.11rem;
 }
 
 .carousel-caption p {
-  font-size: 1rem;
+  font-size: 1.25rem;
   margin-top: 1rem;
   text-justify: auto;
   text-align: justify;
@@ -251,17 +251,69 @@ section {
 }
 
 /* Laptop */
-@media (max-width: 992px) {
+@media (max-width: 1439px) {
   html {
     font-size: 90%;
   }
 }
 
 /* tablet */
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   html {
     font-size: 85%;
   }
+
+  section {
+    margin-bottom: -2px;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    text-align: justify;
+  }
+
+  .carousel-caption h3 {
+    display: flex;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption a {
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    left: -11rem;
+  }
+
+  .carousel-control-prev {
+    position: absolute;
+    width: 70px;
+    top: 30%;
+    left: 6%;
+  }
+
+  .carousel-control-next {
+    position: absolute;
+    width: 70px;
+    top: 30%;
+    left: 78%;
+  }
+
+  .carousel-caption {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    left: 6rem;
+    transform: translate(-6rem);
+  }
+
+  .card-body {
+    bottom: -75px;
+  }
+
   .carousel-inner,
   .carousel-item {
     height: auto;
@@ -273,7 +325,8 @@ section {
   }
 }
 
-@media (max-width: 576px) {
+/* mobile */
+@media (max-width: 767px) {
   html {
     font-size: 75%;
   }
@@ -286,21 +339,21 @@ section {
     position: absolute;
     width: 60px;
     top: 25%;
-    left: -1%;
+    left: -6%;
   }
 
   .carousel-control-next {
     position: absolute;
     width: 60px;
     top: 25%;
-    left: 75%;
+    left: 78%;
   }
 
   .carousel-inner,
   .carousel-item {
     height: auto;
     width: 200px;
-    left: 25%;
+    left: 23%;
   }
 
   .carousel-caption {
@@ -308,7 +361,8 @@ section {
     width: 100%;
     height: 100%;
     padding: 20px;
-    transform: translate(-12.5rem);
+    left: 3.3rem;
+    transform: translate(-3.3rem);
   }
 
   .carousel-caption p {
@@ -327,16 +381,16 @@ section {
   .carousel-caption a {
     border: none;
     background-color: transparent;
-    font-size: 0.5rem;
+    font-size: 0.55rem;
     left: -5rem;
   }
 
   .carousel-item img {
-    transform: translate(-25%);
+    transform: translate(-23%);
   }
 
   .card-body {
-    bottom: -35px;
+    bottom: -45px;
   }
 
   .sidebar {
