@@ -252,10 +252,16 @@ section {
 /* Media Query */
 /* Extra Large */
 @media (max-width: 1200px) {
+  html {
+    font-size: 100%;
+  }
 }
 
 /* Laptop */
 @media (max-width: 992px) {
+  html {
+    font-size: 90%;
+  }
 }
 
 /* tablet */
