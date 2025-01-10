@@ -178,12 +178,24 @@ section {
   font-weight: 500;
   font-size: 1.5rem;
 }
+.carousel-caption ul {
+  padding-right: 14rem;
+  padding-top: 0.5rem;
+  margin: 0;
+}
+
+.carousel-caption ul > li {
+  font-size: 1.1rem;
+  list-style-type: none;
+  list-style-position: outside;
+  margin: 0;
+  padding: 0;
+}
 
 .carousel-caption a {
   border: none;
   background-color: transparent;
   position: relative;
-  margin-top: 1rem;
   margin-bottom: 0;
   left: -12rem;
   font-size: 1.11rem;
@@ -191,7 +203,7 @@ section {
 
 .carousel-caption p {
   font-size: 1.1rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   text-justify: auto;
   text-align: justify;
 }
@@ -238,30 +250,189 @@ section {
 /* Media Query */
 /* Extra Large */
 @media (max-width: 1200px) {
-  html {
-    font-size: 100%;
+  .card-body {
+    bottom: -17rem;
+  }
+
+  .card-text {
+    font-size: 1.13rem;
+  }
+
+  .carousel-caption ul {
+    padding-right: 10rem;
+    padding-top: 0.5rem;
+    margin: 0;
+  }
+
+  .carousel-caption ul > li {
+    font-size: 0.88rem;
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0;
+    padding: 0;
+  }
+
+  .carousel-inner,
+  .carousel-item {
+    height: auto;
+    width: 400px;
+    left: 17rem;
+  }
+  .carousel-item img {
+    transform: translate(-17rem);
+  }
+
+  .carousel-caption p {
+    font-size: 0.88rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    text-align: justify;
+  }
+
+  .carousel-caption h3 {
+    display: flex;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption a {
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    left: -9rem;
+  }
+
+  .carousel-caption {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    left: -6.2rem;
+    transform: translate(-6.2rem);
+  }
+
+  .carousel-control-prev {
+    position: absolute;
+    width: 5rem;
+    top: 16rem;
+    left: 15rem;
+  }
+
+  .carousel-control-next {
+    position: absolute;
+    width: 5rem;
+    top: 16rem;
+    left: 36rem;
+  }
+
+  .card-body {
+    bottom: -20.5rem;
   }
 }
 
 /* Laptop */
 @media (max-width: 992px) {
   html {
-    font-size: 90%;
+    font-size: 75%;
   }
 
   .offcanvas-backdrop {
     display: none !important;
   }
 
+  .carousel-caption ul {
+    padding-right: 14rem;
+    padding-top: 0.5rem;
+    margin: 0;
+  }
+
+  .carousel-caption ul > li {
+    font-size: 1.2rem;
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0;
+    padding: 0;
+  }
+
   .card-body {
     bottom: -5.5rem;
+  }
+
+  .carousel-inner,
+  .carousel-item {
+    height: auto;
+    width: 400px;
+    left: 13rem;
+  }
+  .carousel-item img {
+    transform: translate(-13rem);
+  }
+
+  .carousel-caption p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    text-align: justify;
+  }
+
+  .carousel-caption h3 {
+    display: flex;
+    font-weight: 669;
+    font-size: 2rem;
+  }
+
+  .carousel-caption a {
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    left: -12rem;
+  }
+
+  .carousel-caption {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    left: 1.4rem;
+    transform: translate(-1.4rem);
+  }
+
+  .carousel-control-prev {
+    position: absolute;
+    width: 70px;
+    top: 22rem;
+    left: 10rem;
+  }
+
+  .carousel-control-next {
+    position: absolute;
+    width: 70px;
+    top: 22rem;
+    left: 40rem;
+  }
+
+  .sidebar {
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+  }
+
+  .nav-link::after {
+    width: 100%;
+  }
+
+  .nav-link {
+    width: 70px;
+  }
+
+  .card-body {
+    bottom: -20.5rem;
   }
 }
 
 /* tablet */
 @media (max-width: 768px) {
   html {
-    font-size: 85%;
+    font-size: 65%;
   }
 
   .sidebar {
@@ -282,36 +453,50 @@ section {
   }
 
   .carousel-caption p {
-    font-size: 1rem;
+    font-size: 1.4rem;
     margin-top: 1rem;
     margin-bottom: 0;
     text-align: justify;
   }
 
+  .carousel-caption ul {
+    padding-right: 16rem;
+    padding-top: 0.5rem;
+    margin: 0;
+  }
+
+  .carousel-caption ul > li {
+    font-size: 1.4rem;
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0;
+    padding: 0;
+  }
+
   .carousel-caption h3 {
     display: flex;
-    font-weight: 500;
-    font-size: 1.5rem;
+    font-weight: 660;
+    font-size: 2rem;
   }
 
   .carousel-caption a {
     border: none;
     background-color: transparent;
-    font-size: 1rem;
-    left: -11rem;
+    font-size: 1.2rem;
+    left: -15rem;
   }
 
   .carousel-control-prev {
     position: absolute;
     width: 70px;
-    top: 30%;
+    top: 26rem;
     left: 6%;
   }
 
   .carousel-control-next {
     position: absolute;
     width: 70px;
-    top: 30%;
+    top: 26rem;
     left: 78%;
   }
 
@@ -320,8 +505,8 @@ section {
     width: 100%;
     height: 100%;
     padding: 20px;
-    left: 6rem;
-    transform: translate(-6rem);
+    left: 10.9rem;
+    transform: translate(-10.9rem);
   }
 
   .offcanvas-backdrop {
@@ -329,28 +514,47 @@ section {
   }
 
   .card-body {
-    bottom: -19rem;
+    bottom: min(5%, -8.3rem);
   }
 
   .carousel-inner,
   .carousel-item {
     height: auto;
     width: 400px;
-    left: 22%;
+    left: 15%;
   }
   .carousel-item img {
-    transform: translate(-22%);
+    transform: translate(-15%);
   }
 }
 
 /* mobile */
 @media (max-width: 576px) {
   html {
-    font-size: 75%;
+    font-size: 60%;
+  }
+
+  .carousel-caption ul {
+    padding-right: 7rem;
+    padding-top: 1rem;
+    margin: 0;
+  }
+
+  .carousel-caption ul > li {
+    font-size: 0.65rem;
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0;
+    padding: 0;
   }
 
   .offcanvas-backdrop {
     display: none !important;
+  }
+
+  .card-text {
+    font-size: 1rem;
+    text-align: justify;
   }
 
   section {
@@ -358,18 +562,24 @@ section {
   }
 
   .carousel-control-prev {
-    display: none;
+    position: absolute;
+    width: 5rem;
+    top: 3rem;
+    left: 7rem;
   }
 
   .carousel-control-next {
-    display: none;
+    position: absolute;
+    width: 5rem;
+    top: 3rem;
+    left: 34rem;
   }
 
   .carousel-inner,
   .carousel-item {
     height: auto;
     width: 200px;
-    left: 25%;
+    left: 29%;
   }
 
   .carousel-caption {
@@ -378,11 +588,11 @@ section {
     height: 100%;
     padding: 20px;
     left: 3rem;
-    transform: translate(3rem);
+    transform: translate(-3rem);
   }
 
   .carousel-caption p {
-    font-size: 0.5rem;
+    font-size: 0.65rem;
     margin-top: -0.1rem;
     margin-bottom: 0;
     text-align: justify;
@@ -390,23 +600,23 @@ section {
 
   .carousel-caption h3 {
     display: flex;
-    font-weight: 500;
-    font-size: 0.9rem;
+    font-weight: 600;
+    font-size: 0.95rem;
   }
 
   .carousel-caption a {
     border: none;
     background-color: transparent;
-    font-size: 0.55rem;
-    left: -5rem;
+    font-size: 0.6rem;
+    left: -6.5rem;
   }
 
   .carousel-item img {
-    transform: translate(-25%);
+    transform: translate(-29%);
   }
 
   .card-body {
-    bottom: -105px;
+    bottom: -6.5rem;
   }
 
   .sidebar {
