@@ -81,7 +81,7 @@ section {
 }
 
 .btn {
-  color: #a1d6e2;
+  color: var(--shodow);
   background-color: var(--green);
   border: none;
 }
@@ -124,8 +124,13 @@ section {
 
 .card-body {
   position: absolute;
-  bottom: -65px;
+  bottom: -13rem;
   transition: 0.3s;
+}
+
+.card-text {
+  font-size: 1rem;
+  text-align: justify;
 }
 
 .card {
@@ -324,7 +329,7 @@ section {
   }
 
   .card-body {
-    bottom: -3rem;
+    bottom: -19rem;
   }
 
   .carousel-inner,
@@ -401,7 +406,7 @@ section {
   }
 
   .card-body {
-    bottom: -35px;
+    bottom: -105px;
   }
 
   .sidebar {
