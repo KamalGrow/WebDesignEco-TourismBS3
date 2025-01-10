@@ -42,3 +42,10 @@ form.addEventListener("submit", (e) => {
     })
     .catch((error) => console.error("Error!", error.message));
 });
+
+// My GASP Animation
+document.addEventListener("DOMContentLoaded", (event) => {
+  // gsap code here!
+  gsap.registerPlugin(TextPlugin, EaselPlugin);
+  gsap.to(".texts", { duration: 2, delay: 0.4, text: "Selamat datang di Ekowisata Kabupaten Bogor" });
+});
