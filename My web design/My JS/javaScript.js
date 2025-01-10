@@ -46,6 +46,22 @@ form.addEventListener("submit", (e) => {
 // My GASP Animation
 document.addEventListener("DOMContentLoaded", (event) => {
   // gsap code here!
-  gsap.registerPlugin(TextPlugin, EaselPlugin);
+  gsap.registerPlugin(TextPlugin, EaselPlugin, CustomEase, EasePack, ScrollTrigger);
+  gsap.from(".btn", {
+    duration: 2.5,
+    ease: "elastic.out(1,0.3)",
+    delay: 1.5,
+    x: -1000,
+  });
+  ("elastic.out(1, 0.3)");
+  gsap.from(".winggle", {
+    scrollTrigger: {
+      trigger: ".winggle",
+      toggleActions: "restart play  reverse  resume",
+    },
+    duration: 2,
+    ease: "back.out(1.7)",
+    y: 250,
+  });
   gsap.to(".texts", { duration: 2, delay: 0.4, text: "Selamat datang di Ekowisata Kabupaten Bogor" });
 });
