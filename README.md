@@ -5,9 +5,7 @@ Proyek ini adalah website bertema ekowisata yang dirancang dengan pendekatan min
 ## Fitur Utama
 - **Galeri** – Menampilkan berbagai destinasi ekowisata dalam bentuk gambar.
 - **Button Link** – Navigasi yang mengarahkan pengguna ke berbagai halaman informatif.
-- **Formulir Kontak** – Memudahkan pengunjung untuk menghubungi atau memberikan feedback.
-
-Website ini memiliki desain yang responsif dan ramah pengguna, sehingga dapat diakses dengan nyaman di berbagai perangkat.
+- **Formulir Comment** – Memudahkan pengunjung untuk  memberikan feedback.
 
 ## Demo Website
 Website ini dapat diakses melalui URL berikut:
@@ -15,5 +13,5 @@ Website ini dapat diakses melalui URL berikut:
 
 ---
 
-Terima kasih sudah mengunjungi MyWebDesign 😁
+Terima kasih sudah mengunjungi 😁
 
